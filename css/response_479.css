@@ -1,0 +1,535 @@
+@media (max-width: 479px)
+{
+    .main-slider__slide
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .main-slider__coll
+    {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .main-slider__desc
+    {
+        display: none;
+    }
+
+    .main-slider__link
+    {
+        display: none;
+    }
+
+    .main-slider__title
+    {
+        font-size: 12px;
+    }
+
+    .main-slider__btn .btn-white
+    {
+        font-size: 8px;
+        line-height: 26px;
+    }
+
+    .first-section__item-name
+    {
+        font-size: 9px;
+    }
+
+    .first-section__item-colr
+    {
+        width: 30%;
+    }
+
+    .first-section__item-coll
+    {
+        padding: 12px 6px;
+    }
+
+    .first-section__item-link
+    {
+        font-size: 9px;
+
+        margin-top: 10px;
+    }
+
+
+    .main-cats__name
+    {
+        min-height: 74px;
+        padding-right: 50px;
+        padding-left: 25px;
+    }
+
+    .main-cats__name::before
+    {
+        right: 25px;
+    }
+
+    .main-cats__info
+    {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+
+    .categories__item
+    {
+        padding-right: 21px;
+        padding-left: 21px;
+    }
+
+    .categories__img
+    {
+        width: 54px;
+    }
+
+
+    .cart-empry
+    {
+        padding-top: 28px;
+    }
+
+    .cart-empry__img img
+    {
+        width: 154px;
+    }
+
+    .cart-empry__info
+    {
+        margin-top: 35px;
+    }
+
+    .cart-empry__desc
+    {
+        max-width: 280px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    .section-head__btn
+    {
+        margin-left: auto;
+    }
+
+
+    .services__top
+    {
+        padding: 12px 16px;
+    }
+
+    .services__icon
+    {
+        margin-right: 20px;
+    }
+
+
+    .inner-cats__item
+    {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+    .about-company::before
+    {
+        height: 54px;
+    }
+
+    .about-company__flex
+    {
+        flex-wrap: wrap;
+    }
+
+    .about-company__logo
+    {
+        width: 100%;
+        margin: 0 0 15px;
+    }
+
+
+    .info-brand__flex
+    {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+
+    .main-news__grid
+    {
+        margin-left: 0;
+    }
+
+    .main-news__item
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .pagination
+    {
+        margin-left: -5px;
+    }
+
+    .pagination a
+    {
+        margin-left: 5px;
+    }
+
+    .pagination span
+    {
+        margin-left: 5px;
+    }
+
+
+    .text-page img
+    {
+        width: calc(100% + 38px);
+        max-width: none;
+        margin-right: -19px;
+        margin-left: -19px;
+    }
+
+
+    .products__grid
+    {
+        --products_number: 1;
+    }
+
+    .catalog__col .products__grid
+    {
+        --products_number: 1;
+    }
+
+    .product__img
+    {
+        padding-bottom: 50%;
+    }
+
+    .cities__grid
+    {
+        column-gap: 0;
+        columns: 1;
+    }
+
+    .cities__item
+    {
+        display: flex;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .cities__letter
+    {
+        line-height: 26px;
+
+        width: 40px;
+        margin-right: 10px;
+
+        text-align: center;
+    }
+
+    .cities__list
+    {
+        margin-top: 0;
+    }
+
+    .cities__list li:first-child
+    {
+        margin-top: 0;
+    }
+
+
+    .accordion__title
+    {
+        min-height: 90px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .accordion__title-arrow
+    {
+        margin-left: 16px;
+    }
+
+    .accordion__data
+    {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+    .products__slider2
+    {
+        overflow: hidden;
+    }
+
+    .products__slider2 .product
+    {
+        width: 100%;
+    }
+
+    .product__wrap-coll
+    {
+        margin-right: 16px;
+    }
+
+    .product__wrap-coll .product__img
+    {
+        min-height: 114px;
+    }
+
+    .product__wrap-colr .product__name
+    {
+        margin-top: 12px;
+    }
+
+    .product__bot
+    {
+        margin-top: 12px;
+    }
+
+
+    .checkout-table__thumb
+    {
+        width: 69px;
+    }
+
+    .checkout-table__img
+    {
+        width: 69px;
+        height: 69px;
+        padding: 0;
+    }
+
+    .checkout-table__info
+    {
+        width: calc(100% - 69px);
+        min-height: 100px;
+    }
+
+    .cartcheckout-table__number
+    {
+        width: 69px;
+    }
+
+    .checkout__radios .checkout__radio_small
+    {
+        width: calc(50% - 3px);
+    }
+
+    .checkout__radio_small
+    {
+        text-align: center;
+    }
+
+    .have-questions
+    {
+        flex-wrap: wrap;
+
+        padding: 18px 18px 29px;
+    }
+
+    .have-questions__flex
+    {
+        display: block;
+
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .have-questions__icon
+    {
+        width: 86px;
+        height: 58px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .have-questions__title
+    {
+        line-height: 24px;
+
+        text-align: center;
+    }
+
+    .have-questions__title br
+    {
+        display: none;
+    }
+
+    .have-questions__phone
+    {
+        line-height: 21px;
+
+        margin: 2px 0 0;
+
+        text-align: center;
+    }
+
+    .product-features__val_norm
+    {
+        white-space: wrap;
+    }
+
+    .product-features__line
+    {
+        min-width: 48px;
+    }
+
+
+    .page-compare__slider2 .product__name
+    {
+        margin-top: 14px;
+
+        word-break: break-word;
+    }
+
+    .page-compare__slider2 .product__code-name
+    {
+        width: 100%;
+    }
+
+    .page-compare__slider2 .product__price
+    {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .page-compare__slider2 .product__img
+    {
+        min-height: 88px;
+    }
+
+    .page-compare__slider2 .product__code
+    {
+        margin-top: 8px;
+        padding: 8px 0;
+    }
+
+    .product__info
+    {
+        padding: 8px 0;
+    }
+
+    .product__buy_small
+    {
+        position: relative;
+
+        width: 55px;
+        height: 36px;
+        padding: 0;
+    }
+
+    .product__buy_small span
+    {
+        display: none;
+    }
+
+    .product__buy_small::before
+    {
+        content: "";
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100%;
+
+        border-radius: 6px;
+        background: url(../images/ic_cart.svg) 50% no-repeat;
+    }
+
+
+    .page-compare__mob._fix .product__wrap
+    {
+        height: auto !important;
+        min-height: 88px;
+        padding: 59px 0 0;
+
+        border: none;
+    }
+
+    .page-compare__mob._fix .product__price
+    {
+        top: 26px;
+    }
+
+    .page-compare__mob._fix .product__images
+    {
+        top: 12px;
+    }
+
+    .page-compare__mob._fix .product__img
+    {
+        height: 41px;
+        min-height: 41px;
+    }
+
+    .page-compare__mob._fix .product__name
+    {
+        padding-left: 0;
+    }
+
+    .page-compare__mob._fix .page-compare__slider2 > .slider-pagination
+    {
+        top: auto;
+        bottom: 36px;
+    }
+
+    .page-compare__mob._fix .page-compare__slider2 .slider-button-prev,
+    .page-compare__mob._fix .page-compare__slider2 .slider-button-next,
+    .page-compare__mob._fix .slider-number
+    {
+        top: auto;
+        bottom: 12px;
+    }
+
+    .page-compare__slider2 .product__price{
+        font-size: 14px;
+    }
+
+
+    .header__search-box
+    {
+        left: -66px;
+
+        width: calc(100% + 85px);
+    }
+
+    .search-product
+    {
+        flex-wrap: wrap;
+    }
+
+    .search-product__info
+    {
+        align-self: flex-start;
+
+        width: calc(100% - 123px);
+        padding-bottom: 43px;
+    }
+
+    .search-product .search-product__buy
+    {
+        margin-top: -38px;
+        margin-left: 123px;
+    }
+
+
+    .shops-map__map{
+        height: 320px;
+    }
+
+
+    .footer__copy
+    {
+        max-width: 280px;
+    }
+}

@@ -1,0 +1,250 @@
+@media (max-width: 1499px)
+{
+    .header__search
+    {
+        width: 540px;
+    }
+
+
+    .main-slider__slide
+    {
+        padding: 50px 40px;
+    }
+
+    .main-slider .slider-pagination
+    {
+        bottom: 20px;
+
+        width: calc(100% - 80px);
+    }
+
+    .first-section__item + .first-section__item
+    {
+        margin-top: 20px;
+    }
+
+
+    .main-adv
+    {
+        margin-left: -20px;
+    }
+
+    .main-adv__item
+    {
+        width: calc(100% / 4 - 20px);
+        margin-left: 20px;
+    }
+
+
+    .main-cats__grid
+    {
+        margin: 0 0 0 -20px;
+    }
+
+    .main-cats__item
+    {
+        width: calc(100% / 4 - 20px);
+        margin: 20px 0 0 20px;
+    }
+
+    .main-cats__name
+    {
+        font-size: 22px;
+    }
+
+
+    .main-news__slide
+    {
+        width: calc((25% - 40px / 3) - 1px);
+    }
+
+    .main-news__slide_big
+    {
+        width: calc((50% - 40px / 3) + 2px);
+    }
+
+
+    .form__col
+    {
+        width: calc(50% - 10px);
+    }
+
+    .stocks__name
+    {
+        font-size: 26px;
+    }
+
+
+    .categories__item
+    {
+        padding-right: 19px;
+        padding-left: 19px;
+    }
+
+
+    .inner-cats__grid
+    {
+        margin-left: -20px;
+    }
+
+    .inner-cats__item
+    {
+        width: calc(100% / 4 - 20px);
+        margin-left: 20px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .inner-cats__img
+    {
+        width: 76px;
+    }
+
+
+    .text-block ul.columns
+    {
+        column-gap: 20px;
+    }
+
+
+    .main-news__coll
+    {
+        width: calc(50% - 10px);
+    }
+
+    .main-news__colr
+    {
+        width: calc(50% - 10px);
+    }
+
+
+
+    .info-brand__flex
+    {
+        padding-right: 61px;
+        padding-left: 61px;
+    }
+
+    .info-brand__logo
+    {
+        margin-right: 80px;
+    }
+
+
+    .text-block__coll
+    {
+        width: calc(50% - 38px);
+    }
+
+    .text-block__colr
+    {
+        width: calc(50% - 10px);
+    }
+
+
+    .main-news__grid
+    {
+        margin-left: -20px;
+    }
+
+    .main-news__item
+    {
+        width: calc(100%/4 - 20px);
+        margin-left: 20px;
+    }
+
+
+    .gallery__slider .slider-pagination
+    {
+        bottom: 29px;
+    }
+
+
+    .products__grid
+    {
+        --products_number: 5;
+    }
+
+    .catalog__col .products__grid
+    {
+        --products_number: 4;
+    }
+
+    .aside
+    {
+        width: calc(100% / 5 - 30px);
+        margin-left: 30px;
+    }
+
+    .catalog__col
+    {
+        width: calc(100% - 100% / 5 - 30px);
+        margin-left: 30px;
+    }
+
+
+    .cart-table__thumb
+    {
+        width: 168px;
+        padding-right: 29px;
+        padding-left: 29px;
+    }
+
+    .cart-table__amount
+    {
+        width: 20%;
+    }
+
+    .shops-map__map
+    {
+        height: 480px;
+    }
+
+    .cities__grid
+    {
+        columns: 4;
+    }
+
+
+    .checkout-products
+    {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .checkout-table__thumb
+    {
+        width: 149px;
+        padding-right: 20px;
+        padding-left: 19px;
+    }
+
+    .checkout-table__last
+    {
+        padding-right: 19px;
+    }
+
+    .have-questions
+    {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+
+    .product-info__images
+    {
+        padding-left: 0;
+    }
+
+
+    .filter-form__bord
+    {
+        padding-right: 19px;
+        padding-left: 19px;
+    }
+
+    .available__checkbox-text
+    {
+        font-size: 16px;
+    }
+}

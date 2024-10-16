@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- Переключение IE в последнию версию, на случай если в настройках пользователя стоит меньшая -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/ion.rangeSlider.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/styles_big.css">
+
+		<link rel="stylesheet" href="css/response_1659.css" media="(max-width: 1659px)">
+		<link rel="stylesheet" href="css/response_1499.css" media="(max-width: 1499px)">
+		<link rel="stylesheet" href="css/response_1399.css" media="(max-width: 1399px)">
+		<link rel="stylesheet" href="css/response_1279.css" media="(max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1024.css" media="(max-width: 1024px)">
+		<link rel="stylesheet" href="css/response_639.css" media="(max-width: 639px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+	<body class="checkout-page">
+		<div class="wrap">
+			<div class="main">
+				<!-- Шапка -->
+				<header class="header-checkout">
+					<div class="cont _flex">
+						<div class="header-checkout__back">
+							<a href="/">
+								<svg>
+									<use xlink:href="images/sprite.svg#ic_arrow1"></use>
+								</svg>
+	
+								<span>Вернуться в корзину</span>
+							</a>
+						</div>
+
+						<div class="header-checkout__logo">
+							<a href="/">
+								<img src="images/logo.png" alt="">
+							</a>
+						</div>
+
+						<div class="header-checkout__city">
+							<a href="/">
+								<span>Москва</span>
+							</a>
+						</div>
+					</div>
+				</header>
+				<!-- End Шапка -->
+
+
+				<section class="checkout">
+					<div class="cont">
+						<h1 class="main-title">Оформление заказа</h1>
+
+						<div class="important important_marg">
+							<div class="important__top">
+								<div class="important__icon">
+									<img data-src="images/ic_imp.svg" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+
+								<div class="important__title">Внимание</div>
+							</div>
+
+							<div class="important__desc">Вы оформляете предзаказ - точная стоимость с доставкой, наличие, все условия по оплате предварительно согласовываются с менеджером отдела продаж.</div>
+						</div>
+
+						<form action="" class="form">
+							<div class="checkout__cols _flex">
+								<div class="checkout__coll">
+									<div class="checkout__sector">
+										<div class="checkout__sector-title _flex">
+											<div class="checkout__sector-number _active">1</div>
+
+											<div>Город доставки</div>
+										</div>
+
+										<div class="search-city _flex">
+											<input type="text" value="" name="" placeholder="Город" class="search-city__input">
+
+											<button type="button" class="search-city__clear">
+												<svg>
+													<use xlink:href="images/sprite.svg#ic_close"></use>
+												</svg>
+											</button>
+										</div>
+									</div>
+
+									<div class="checkout__sector">
+										<div class="checkout__sector-title _flex">
+											<div class="checkout__sector-number _active">2</div>
+
+											<div>Способ доставки</div>
+										</div>
+
+										<div class="checkout__radios _flex">
+											<div class="checkout__radio">
+												<label class="checkout__radio-label">
+													<input type="radio" name="delivery" checked>
+
+													<span class="checkout__radio-box">
+														<span class="checkout__radio-title">Самовывоз со склада продавца</span>
+
+														<span class="checkout__radio-text">Заказывается и оплачивается Продавцом (стоимость доставки суммируется с ценой Товара)</span>
+													</span>
+												</label>
+											</div>
+
+											<div class="checkout__radio">
+												<label class="checkout__radio-label">
+													<input type="radio" name="delivery">
+
+													<span class="checkout__radio-box">
+														<span class="checkout__radio-title">Доставка все включено</span>
+
+														<span class="checkout__radio-text">Заказывается и оплачивается Продавцом (стоимость доставки суммируется с ценой Товара)</span>
+													</span>
+												</label>
+											</div>
+
+											<div class="checkout__radio">
+												<label class="checkout__radio-label">
+													<input type="radio" name="delivery">
+
+													<span class="checkout__radio-box">
+														<span class="checkout__radio-title">Доставка за счет Покупателя</span>
+
+														<span class="checkout__radio-text">Заказывается Продацом, оплачивается дополнительно Покупателем (не включена в стоимость Товара)</span>
+													</span>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="checkout__sector">
+										<div class="checkout__sector-title _flex">
+											<div class="checkout__sector-number">3</div>
+
+											<div>Способ оплаты</div>
+										</div>
+
+										<div class="checkout__radios _flex">
+											<div class="checkout__radio">
+												<label class="checkout__radio-label">
+													<input type="radio" name="payment" checked>
+
+													<span class="checkout__radio-box">
+														<span class="checkout__radio-title">Счет (безналичный расчет)</span>
+													</span>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="checkout__sector">
+										<div class="checkout__sector-title _flex">
+											<div class="checkout__sector-number">4</div>
+
+											<div>Личные данные</div>
+										</div>
+
+										<div class="checkout__radios _flex">
+											<div class="checkout__radio checkout__radio_small">
+												<label class="checkout__radio-label checkout__radio-label_personal legal-entity">
+													<input type="radio" name="personal-data" checked>
+
+													<span class="checkout__radio-box">
+														<span class="checkout__radio-title">Юридическое лицо</span>
+													</span>
+												</label>
+											</div>
+											<div class="checkout__radio checkout__radio_small">
+												<label class="checkout__radio-label checkout__radio-label_personal">
+													<input type="radio" name="personal-data">
+
+													<span class="checkout__radio-box">
+														<span class="checkout__radio-title">Физическое лицо</span>
+													</span>
+												</label>
+											</div>
+										</div>
+
+										<div class="checkout__form">
+											<div class="checkout__form-cols _flex">
+												<div class="checkout__form-col">
+													<div class="checkout__form-line">
+														<div class="form__field">
+															<input type="text" value="" name="" class="form__input">
+
+															<div class="form__label">Имя<span>*</span></div>
+														</div>
+													</div>
+
+													<div class="checkout__form-line">
+														<div class="form__field">
+															<input type="text" value="" name="" class="form__input">
+
+															<div class="form__label">Фамилия<span>*</span></div>
+														</div>
+													</div>
+
+													<div class="checkout__form-line checkout__form-line_legal _show">
+														<div class="form__field">
+															<input type="mail" value="" name="" class="form__input">
+
+															<div class="form__label">Название компании</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="checkout__form-col">
+													<div class="checkout__form-line">
+														<div class="form__field">
+															<input type="tel" value="" name="" data-mask="8 (999) 999-99-99" class="form__input">
+
+															<div class="form__label">Телефон<span>*</span></div>
+														</div>
+													</div>
+
+													<div class="checkout__form-line">
+														<div class="form__field">
+															<input type="mail" value="" name="" class="form__input">
+
+															<div class="form__label">Email</div>
+														</div>
+													</div>
+
+													<div class="checkout__form-line checkout__form-line_legal _show">
+														<div class="form__field">
+															<input type="mail" value="" name="" class="form__input">
+
+															<div class="form__label">ИНН</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="checkout__form-line">
+												<div class="form__field">
+													<textarea class="form__textarea"></textarea>
+	
+													<div class="form__label">Примечание к заказу</div>
+												</div>
+											</div>
+
+											<div class="file-selection">
+												<label class="file-selection__label">
+													<input type="file" name="">
+		
+													<span class="file-selection__path">
+														<div class="file-selection__icon">
+															<img data-src="images/ic_plus.svg" src="images/ic_file.svg" alt="" class="lazyload">
+														</div>
+
+														<span class="file-selection__name" data-name="Прикрепить файл">Прикрепить файл</span>
+													</span>
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<div class="checkout__sector">
+										<div class="checkout__total">
+											<div class="checkout__total-item checkout__total-item_big _flex">
+												<div class="checkout__total-name">Итого</div>
+
+												<div class="checkout__total-val">2 261 980₽</div>
+											</div>
+											<div class="checkout__total-item checkout__total-item_pad _flex">
+												<div class="checkout__total-name">2 товара</div>
+
+												<div class="checkout__total-val">2 261 980₽</div>
+											</div>
+											<div class="checkout__total-item checkout__total-item_small _flex">
+												<div class="checkout__total-name">Скидка</div>
+
+												<div class="checkout__total-val">-200 990₽</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="checkout__agree">
+										Оформляя заказ, вы соглашаетесь с <a href="/" target="_blank">Политикой конфиденциальности</a> и&nbsp;<a href="/" target="_blank">Правилами&nbsp;продажи</a>
+									</div>
+
+									<div class="checkout__bot">
+										<a href="/" class="btn-blue checkout__btn-blue">оформить заказ</a>
+									</div>
+
+									<div class="have-questions _mob _flex">
+										<div class="have-questions__icon">
+											<img data-src="images/ic_questions.svg" src="images/img_plug.png" alt="" class="lazyload">
+										</div>
+
+										<div class="have-questions__flex _flex">
+											<div class="have-questions__title">Есть вопрос?<br> Ответим!</div>
+
+											<div class="have-questions__phone">
+												<a href="tel:84955058915">8 (495) 505-89-15</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="checkout__colr">
+									<div class="checkout-products">
+										<div class="checkout-products__title">Вы выбрали</div>
+
+										<div class="checkout-table">
+											<div class="checkout-table__wrap">
+												<div class="checkout-table__item">
+													<div class="checkout-table__td checkout-table__thumb">
+														<div class="checkout-table__thumb-wrap">
+															<a href="/" class="checkout-table__img">
+																<img data-src="images/tmp/product1.png" src="images/img_plug.png" alt="" class="lazyload">
+															</a>
+														</div>
+													</div>
+													<div class="checkout-table__td checkout-table__info">
+														<div class="checkout-table__name">
+															<a href="/">Автоматизированный склад ДиКом-Карусель</a>
+														</div>
+		
+														<div class="checkout-table__info-items">
+															<div class="checkout-table__info-item _flex">
+																<div class="checkout-table__info-name">Артикул:</div>
+																<div class="checkout-table__info-val">254677</div>
+															</div>
+															<div class="checkout-table__info-item _flex">
+																<div class="checkout-table__info-name">Ширина полки:</div>
+																<div class="checkout-table__info-val">1900</div>
+															</div>
+															<div class="checkout-table__info-item _flex">
+																<div class="checkout-table__info-name">Цвет:</div>
+																<div class="checkout-table__info-val _flex">
+																	<div class="checkout-table__color">
+																		<img data-src="images/color1.png" src="images/img_plug.png" alt="" class="lazyload">
+																	</div>
+		
+																	<span>серый</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="checkout-table__td checkout-table__last">
+														<div class="cartcheckout-table__number">1 шт</div>
+
+														<div class="checkout-table__last-wrap">
+															<div class="checkout-table__oldprice">1 300 990₽</div>
+
+															<div class="checkout-table__last-flex _flex">
+																<div class="stickers checkout-table__stickers">
+																	<div class="stickers__sticker">-20%</div>
+																</div>
+
+																<div class="checkout-table__price">1 130 990₽</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="checkout-table__item">
+													<div class="checkout-table__td checkout-table__thumb">
+														<div class="checkout-table__thumb-wrap">
+															<a href="/" class="checkout-table__img">
+																<img data-src="images/tmp/product1.png" src="images/img_plug.png" alt="" class="lazyload">
+															</a>
+														</div>
+													</div>
+													<div class="checkout-table__td checkout-table__info">
+														<div class="checkout-table__name">
+															<a href="/">Автоматизированный склад ДиКом-Карусель</a>
+														</div>
+		
+														<div class="checkout-table__info-items">
+															<div class="checkout-table__info-item _flex">
+																<div class="checkout-table__info-name">Артикул:</div>
+																<div class="checkout-table__info-val">254677</div>
+															</div>
+														</div>
+													</div>
+													<div class="checkout-table__td checkout-table__last">
+														<div class="cartcheckout-table__number">1 шт</div>
+
+														<div class="checkout-table__last-wrap">
+															<div class="checkout-table__last-flex _flex">
+																<div class="checkout-table__price">1 130 990₽</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="slider-pagination"></div>
+										</div>
+									</div>
+
+									<div class="have-questions _flex">
+										<div class="have-questions__icon">
+											<img data-src="images/ic_questions.svg" src="images/img_plug.png" alt="" class="lazyload">
+										</div>
+
+										<div class="have-questions__flex _flex">
+											<div class="have-questions__title">Есть вопрос?<br> Ответим!</div>
+
+											<div class="have-questions__phone">
+												<a href="tel:84955058915">8 (495) 505-89-15</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+			</div>
+
+
+			<footer class="footer _marg">
+				<div class="cont">
+					<div class="footer__top _flex">
+						<a href="/" target="_blank" class="footer__logo">
+							<img src="images/logo2.png" alt="">
+						</a>
+
+						<a href="/" class="footer__catalog">
+							<span class="footer__catalog-wrap">
+								<span class="footer__catalog-burger">
+									<span></span>
+									<span></span>
+									<span></span>
+								</span>
+	
+								Каталог
+							</span>
+						</a>
+
+						<div class="footer__menu _flex">
+							<div class="footer__menu-item">
+								<a href="/" class="footer__menu-link">
+									<span>О компании</span>
+								</a>
+							</div>
+							<div class="footer__menu-item">
+								<a href="/" class="footer__menu-link _sub">
+									<span>Доставка и оплата</span>
+
+									<svg>
+										<use xlink:href="images/sprite.svg#ic_arrow2"></use>
+									</svg>
+								</a>
+
+								<div class="footer__submenu">
+									<div class="footer__submenu-item">
+										<a href="/" class="footer__submenu-link">Доставка</a>
+									</div>
+									<div class="footer__submenu-item">
+										<a href="/" class="footer__submenu-link">Оплата</a>
+									</div>
+								</div>
+							</div>
+							<div class="footer__menu-item">
+								<a href="/" class="footer__menu-link">
+									<span>Новости</span>
+								</a>
+							</div>
+							<div class="footer__menu-item">
+								<a href="/" class="footer__menu-link">
+									<span>Пресс-центр</span>
+								</a>
+							</div>
+							<div class="footer__menu-item">
+								<a href="/" class="footer__menu-link">
+									<span>Контакты</span>
+								</a>
+							</div>
+						</div>
+
+						<div class="footer__link">
+							<a href="/">Участвовать в тендере</a>
+						</div>
+
+						<div class="footer__contacts _flex">
+							<div class="footer__mail">
+								<a href="mailto:office@kiit.ru">office@kiit.ru</a>
+							</div>
+
+							<div class="footer__contacts-box">
+								<div class="footer__phone">
+									<a href="tel:84955058915">8 (495) 505-89-15</a>
+								</div>
+
+								<div class="footer__time">Пн—пт с 8:30 до 17:00</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="footer__bot _flex">
+						<div class="footer__copy">&copy; 2003-2024 АО «Компания инноваций и технологий». <br><span>&emsp;</span>Комплексное оснащение складов и предприятий в России.</div>
+
+						<div class="footer__policy">
+							<a href="/" target="_blank">Политика конфиденциальности</a>
+						</div>
+
+						<div class="footer__socials _flex">
+							<a href="/" class="footer__socials-item">
+								<svg>
+									<use xlink:href="images/sprite.svg#ic_soc1"></use>
+								</svg>
+							</a>
+							<a href="/" class="footer__socials-item">
+								<svg>
+									<use xlink:href="images/sprite.svg#ic_soc2"></use>
+								</svg>
+							</a>
+							<a href="/" class="footer__socials-item">
+								<svg>
+									<use xlink:href="images/sprite.svg#ic_soc3"></use>
+								</svg>
+							</a>
+							<a href="/" class="footer__socials-item">
+								<svg>
+									<use xlink:href="images/sprite.svg#ic_soc4"></use>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+
+		<div class="supports-error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/ion.rangeSlider.min.js"></script>
+
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
